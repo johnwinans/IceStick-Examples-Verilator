@@ -1,0 +1,5 @@
+*.o
+*.vcd
+build
+log
+obj_dir
