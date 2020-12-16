@@ -42,7 +42,7 @@ PI-4B running Rasbian.
 
 	sudo apt install verilator gtkwave
 
-# Copy this repo to your PI, build, and run the blinky example
+# Copy this repo to your PI, build, and run blinky
 
 Plug the IceStick into a USB port and then run the following from this cloned repo:
 
