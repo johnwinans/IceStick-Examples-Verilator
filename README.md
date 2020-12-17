@@ -50,3 +50,15 @@ Plug the IceStick into a USB port and then run the following from this cloned re
 	cd IceStick-Examples/blinky
 	make
 	make burn
+
+# To run verilator to simulate blinky and view a waveform of the counter
+
+	cd IceStick-Examples/blinky
+	make Vtop
+	obj_dir/Vtop -t
+	gtkwave wave.vcd
+
+In gtkwave, open the 'TOP' object in the tree, click on 'TOP->top', select 'clk'
+and 'counter[24:0]' in the signals box below, and click the Append button at the bottom left.
+At this polint, you can zoom and scroll around the waveform on the right to see the clock
+signal ticking and the counter advancing on the rising/positive edge of the 'clk' signal.
