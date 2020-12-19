@@ -1,8 +1,8 @@
 # IceStick-Examples
 
 This project is a simple application for testing the programming of 
-an IceStick on a Linux platform.  It has been verified on a 
-PI-4B running Rasbian.
+an IceStick on a Linux platform.  These instructions have been verified 
+on a Raspberry Pi 4B running Raspberry Pi OS on 2020-12-17.
 
 # Install prerequisites
 
@@ -58,7 +58,9 @@ Plug the IceStick into a USB port and then run the following from this cloned re
 	obj_dir/Vtop -t
 	gtkwave wave.vcd
 
-In gtkwave, open the 'TOP' object in the tree, click on 'TOP->top', select 'clk'
-and 'counter[24:0]' in the signals box below, and click the Append button at the bottom left.
-At this polint, you can zoom and scroll around the waveform on the right to see the clock
-signal ticking and the counter advancing on the rising/positive edge of the 'clk' signal.
+In gtkwave, open the 'TOP' object in the tree, click on 'TOP->top', select 
+'clk' and 'counter[24:0]' in the signals box below, and click the Append 
+button at the bottom left.  
+At this polint, you can zoom and scroll around the waveform on the right 
+to see the clock signal ticking and the counter advancing on the 
+rising/positive edge of the 'clk' signal.
