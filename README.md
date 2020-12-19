@@ -46,7 +46,7 @@ on a Raspberry Pi 4B running Raspberry Pi OS on 2020-12-17.
 
 Plug the IceStick into a USB port and then run the following from this cloned repo:
 
-	git clone git@github.com:johnwinans/IceStick-Examples.git
+	git clone https://github.com/johnwinans/IceStick-Examples.git
 	cd IceStick-Examples/blinky
 	make
 	make burn
