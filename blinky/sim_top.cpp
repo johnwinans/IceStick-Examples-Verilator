@@ -92,7 +92,6 @@ static void reset()
 }
 
 /**
-* sim ucfile [memfile]
 ****************************************************************************/
 int main(int argc, char** argv)
 {
