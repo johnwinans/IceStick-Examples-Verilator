@@ -1,0 +1,2 @@
+set_io led1 95		# the green LED
+set_io btn1 87		# pin 6 on the PMOD connector
