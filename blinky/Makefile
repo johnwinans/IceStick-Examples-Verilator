@@ -30,5 +30,4 @@ Vtop:
 clean:
 	rm -rf build obj_dir
 
-world:
-	clean all
+world: clean all
